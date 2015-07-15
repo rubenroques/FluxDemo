@@ -7,7 +7,36 @@
 //
 
 import UIKit
+import Bond
 
-class LoginStore: NSObject {
-   
+class LoginStore:Store {
+
+    typealias ActionType = LoginAction
+
+    var isLoggedIn : Dynamic<Bool> = Dynamic(false)
+    var userName : Dynamic<String> = Dynamic("")
+
+    init() {
+        Dispatcher.instance.register(self, route: "LoginStore/*")
+    }
+
+    func performAction(action:ActionType) {
+        switch action {
+        case .PerformLogin:
+            self.userName.value = "User 1"
+            self.isLoggedIn.value = true
+            print("Login: Done")
+
+        case .PerformLogout:
+            self.userName.value = ""
+            self.isLoggedIn.value = false
+            print("Log out: Done")
+
+        default:
+            print("Ignore")
+        }
+    }
 }
+
+
+

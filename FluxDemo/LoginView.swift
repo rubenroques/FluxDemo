@@ -6,8 +6,17 @@
 //  Copyright (c) 2015 RRocks. All rights reserved.
 //
 
-import Cocoa
+import UIKit
+import Bond
 
-class LoginView: NSObject {
+class LoginView {
+    let store = LoginStore()
+    let label = UILabel()
 
+    func bind() {
+        self.store.userName ->> self.label
+    }
+    func sendButtonPressed() {
+        Dispatcher.instance.dispatch(LoginAction.PerformLogin(user: "Comment", pass: "Pass"))
+    }
 }

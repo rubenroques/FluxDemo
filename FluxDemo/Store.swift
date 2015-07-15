@@ -8,6 +8,7 @@
 
 import UIKit
 
-class Store: NSObject {
-   
+protocol Store {
+    typealias ActionType = Action
+    func performAction(_: ActionType)
 }

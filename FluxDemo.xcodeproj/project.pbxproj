@@ -11,8 +11,14 @@
 		45281C6B1B571B8F00AB183A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45281C6A1B571B8F00AB183A /* ViewController.swift */; };
 		45281C6E1B571B8F00AB183A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45281C6C1B571B8F00AB183A /* Main.storyboard */; };
 		45281C701B571B8F00AB183A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45281C6F1B571B8F00AB183A /* Images.xcassets */; };
-		45281C731B571B8F00AB183A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45281C711B571B8F00AB183A /* LaunchScreen.xib */; };
 		45281C7F1B571B8F00AB183A /* FluxDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45281C7E1B571B8F00AB183A /* FluxDemoTests.swift */; };
+		45281C891B571BA100AB183A /* Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45281C881B571BA100AB183A /* Dispatcher.swift */; };
+		45281C8B1B571E9200AB183A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45281C8A1B571E9200AB183A /* LoginView.swift */; };
+		45281C8D1B571F8300AB183A /* LoginAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45281C8C1B571F8300AB183A /* LoginAction.swift */; };
+		45281C8F1B571FAE00AB183A /* LoginStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45281C8E1B571FAD00AB183A /* LoginStore.swift */; };
+		45281C911B571FC200AB183A /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45281C901B571FC200AB183A /* Store.swift */; };
+		45281C931B571FDE00AB183A /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45281C921B571FDE00AB183A /* Action.swift */; };
+		6222544373062D54CF6C4869 /* Pods_FluxDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA59170FB631FB0D177222DC /* Pods_FluxDemo.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +32,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0299C35309A218855A93A40A /* Pods-FluxDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FluxDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FluxDemo/Pods-FluxDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		45281C631B571B8F00AB183A /* FluxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45281C671B571B8F00AB183A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45281C681B571B8F00AB183A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45281C6A1B571B8F00AB183A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		45281C6D1B571B8F00AB183A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45281C6F1B571B8F00AB183A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		45281C721B571B8F00AB183A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		45281C781B571B8F00AB183A /* FluxDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluxDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45281C7D1B571B8F00AB183A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45281C7E1B571B8F00AB183A /* FluxDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxDemoTests.swift; sourceTree = "<group>"; };
+		45281C881B571BA100AB183A /* Dispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dispatcher.swift; sourceTree = "<group>"; };
+		45281C8A1B571E9200AB183A /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		45281C8C1B571F8300AB183A /* LoginAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginAction.swift; sourceTree = "<group>"; };
+		45281C8E1B571FAD00AB183A /* LoginStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginStore.swift; sourceTree = "<group>"; };
+		45281C901B571FC200AB183A /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		45281C921B571FDE00AB183A /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		8A2EE146FDDA4F33672ED736 /* Pods-FluxDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FluxDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FluxDemo/Pods-FluxDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BA59170FB631FB0D177222DC /* Pods_FluxDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FluxDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6222544373062D54CF6C4869 /* Pods_FluxDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +71,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		392231552C8811A81D495A18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0299C35309A218855A93A40A /* Pods-FluxDemo.debug.xcconfig */,
+				8A2EE146FDDA4F33672ED736 /* Pods-FluxDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		45281C5A1B571B8F00AB183A = {
 			isa = PBXGroup;
 			children = (
 				45281C651B571B8F00AB183A /* FluxDemo */,
 				45281C7B1B571B8F00AB183A /* FluxDemoTests */,
 				45281C641B571B8F00AB183A /* Products */,
+				392231552C8811A81D495A18 /* Pods */,
+				96298547FA60AE5DE76C5D8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,10 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				45281C681B571B8F00AB183A /* AppDelegate.swift */,
-				45281C6A1B571B8F00AB183A /* ViewController.swift */,
+				45281C941B57203600AB183A /* Flux Core */,
+				45281C951B57203F00AB183A /* Domains */,
 				45281C6C1B571B8F00AB183A /* Main.storyboard */,
+				45281C6A1B571B8F00AB183A /* ViewController.swift */,
 				45281C6F1B571B8F00AB183A /* Images.xcassets */,
-				45281C711B571B8F00AB183A /* LaunchScreen.xib */,
 				45281C661B571B8F00AB183A /* Supporting Files */,
 			);
 			path = FluxDemo;
@@ -112,6 +139,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		45281C941B57203600AB183A /* Flux Core */ = {
+			isa = PBXGroup;
+			children = (
+				45281C881B571BA100AB183A /* Dispatcher.swift */,
+				45281C901B571FC200AB183A /* Store.swift */,
+				45281C921B571FDE00AB183A /* Action.swift */,
+			);
+			name = "Flux Core";
+			sourceTree = "<group>";
+		};
+		45281C951B57203F00AB183A /* Domains */ = {
+			isa = PBXGroup;
+			children = (
+				45281C961B57204800AB183A /* Login */,
+			);
+			name = Domains;
+			sourceTree = "<group>";
+		};
+		45281C961B57204800AB183A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				45281C8A1B571E9200AB183A /* LoginView.swift */,
+				45281C8C1B571F8300AB183A /* LoginAction.swift */,
+				45281C8E1B571FAD00AB183A /* LoginStore.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		96298547FA60AE5DE76C5D8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA59170FB631FB0D177222DC /* Pods_FluxDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45281C821B571B8F00AB183A /* Build configuration list for PBXNativeTarget "FluxDemo" */;
 			buildPhases = (
+				48650E1FD1D7EBF794B28F30 /* Check Pods Manifest.lock */,
 				45281C5F1B571B8F00AB183A /* Sources */,
 				45281C601B571B8F00AB183A /* Frameworks */,
 				45281C611B571B8F00AB183A /* Resources */,
+				C28316373E3277A87A9B689C /* Embed Pods Frameworks */,
+				83DD1D92EDC4EE37A0616036 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +259,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				45281C6E1B571B8F00AB183A /* Main.storyboard in Resources */,
-				45281C731B571B8F00AB183A /* LaunchScreen.xib in Resources */,
 				45281C701B571B8F00AB183A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,13 +272,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		48650E1FD1D7EBF794B28F30 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		83DD1D92EDC4EE37A0616036 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FluxDemo/Pods-FluxDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C28316373E3277A87A9B689C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FluxDemo/Pods-FluxDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		45281C5F1B571B8F00AB183A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45281C911B571FC200AB183A /* Store.swift in Sources */,
 				45281C6B1B571B8F00AB183A /* ViewController.swift in Sources */,
+				45281C8D1B571F8300AB183A /* LoginAction.swift in Sources */,
 				45281C691B571B8F00AB183A /* AppDelegate.swift in Sources */,
+				45281C8B1B571E9200AB183A /* LoginView.swift in Sources */,
+				45281C931B571FDE00AB183A /* Action.swift in Sources */,
+				45281C891B571BA100AB183A /* Dispatcher.swift in Sources */,
+				45281C8F1B571FAE00AB183A /* LoginStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,14 +361,6 @@
 				45281C6D1B571B8F00AB183A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		45281C711B571B8F00AB183A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				45281C721B571B8F00AB183A /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -338,9 +449,11 @@
 		};
 		45281C831B571B8F00AB183A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0299C35309A218855A93A40A /* Pods-FluxDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FluxDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -348,9 +461,11 @@
 		};
 		45281C841B571B8F00AB183A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A2EE146FDDA4F33672ED736 /* Pods-FluxDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FluxDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -409,6 +524,7 @@
 				45281C841B571B8F00AB183A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45281C851B571B8F00AB183A /* Build configuration list for PBXNativeTarget "FluxDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +533,7 @@
 				45281C871B571B8F00AB183A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

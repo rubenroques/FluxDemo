@@ -8,6 +8,8 @@
 
 import UIKit
 
-class Action: NSObject {
-   
+typealias Route = String
+
+protocol Action {
+    func route() -> Route
 }

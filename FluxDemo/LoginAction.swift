@@ -8,6 +8,17 @@
 
 import UIKit
 
-class LoginAction: NSObject {
-   
+enum LoginAction : Action {
+
+    case PerformLogin(user:String, pass:String)
+    case PerformLogout
+
+    func route() -> Route {
+        switch self {
+        case .PerformLogin:
+            return "LoginAction/PerformLogin"
+        case .PerformLogout:
+            return "LoginAction/PerformLogin"
+        }
+    }
 }

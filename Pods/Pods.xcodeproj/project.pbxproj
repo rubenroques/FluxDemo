@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01E904BC60BCB47799174A05 /* Bond+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336A18E16B9BA06264202BAA /* Bond+Operators.swift */; };
+		06B7A46E340396A9A7A9A36F /* Bond+UIDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E58193E5DA4839FC58EE14 /* Bond+UIDatePicker.swift */; };
+		1250F23A25ACA4E00F165E25 /* Bond+UISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E3C860FFC92F7D517FE487 /* Bond+UISlider.swift */; };
+		2B77F71642B7FD49E228C693 /* Bond+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA6D2DBADF7CEA96A0C7C52 /* Bond+UIView.swift */; };
+		3C7A580411DA4BCEBC0A7708 /* Bond+UIProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC20BBE20AE916518377409 /* Bond+UIProgressView.swift */; };
+		3FABEB0A46DD491A926ABF71 /* Bond+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B683E57787EC890F6A4E3F3 /* Bond+UILabel.swift */; };
+		452A06EF39039026E9A605F1 /* Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652135D698ABE01186FD8B70 /* Bond.swift */; };
+		49FD681DC42EAB188B3649EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 124DF2A4A24BC8264C681688 /* Foundation.framework */; };
+		4F4E102954F1F493EB9B3D10 /* Bond+UISwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C62641808467EC2B31A9F30 /* Bond+UISwitch.swift */; };
+		5793A79D6CD5D50C56FE77F3 /* Bond+Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCA36B6B9688702BD6510F /* Bond+Arrays.swift */; };
+		5C90326A1EF4DF88C8046EC2 /* Bond+NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79256CD0EF2CA00EC257B99 /* Bond+NSLayoutConstraint.swift */; };
+		69C9377C036C9FF2E985FBFD /* Bond.h in Headers */ = {isa = PBXBuildFile; fileRef = 9527F9F724E7A2DCDE3C944C /* Bond.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71E68D2FB485A119469F19BE /* Pods-FluxDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 825446C7B661DF4F64DA0E3D /* Pods-FluxDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4EB536F209D94B328E53D9 /* Bond+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EFB341B992AB912F20F595 /* Bond+UITextField.swift */; };
+		7E836B03D5C7F4478E96BF02 /* Bond+UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9E74D6394ABD53E6F6F25C /* Bond+UITextView.swift */; };
+		7F291F07BB4D26F2D68E4235 /* Bond+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BABF1F1B7F5F13DD151198 /* Bond+UICollectionView.swift */; };
+		8ACBE76318A5671B2E92FF46 /* Pods-FluxDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C67F81C7EFEAE0163A292DEA /* Pods-FluxDemo-dummy.m */; };
+		933E176EE60B7B16133B6010 /* Bond+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0AD7B97FFB8BF9C672CFBD /* Bond+UIButton.swift */; };
+		9AC78F4496B5F4C771B923FA /* Pods-FluxDemo-Bond-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 153695507AEC2082FBE8AC92 /* Pods-FluxDemo-Bond-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E86D9339EA181153889D680 /* Bond+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BD130F7991F97EF5DF59B0 /* Bond+UITableView.swift */; };
+		A801DCC02BC68AFC3F99E88A /* Pods-FluxDemo-Bond-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F455D9CB1F436FE57B7113 /* Pods-FluxDemo-Bond-dummy.m */; };
+		A8FF240C8ACA50C2CE3633F2 /* Bond+UINavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFE0B08F3785A857D96121B /* Bond+UINavigationItem.swift */; };
+		AD80974489F571ACEAFADDA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 124DF2A4A24BC8264C681688 /* Foundation.framework */; };
+		BD2472A82E3736BF61E86596 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFF4DB12AC3C0933D4B6F6A /* SystemConfiguration.framework */; };
+		C693A84EEF30E285753F3437 /* Bond+UIActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7F49F1ABD5C3136B61EACA /* Bond+UIActivityIndicatorView.swift */; };
+		CE9E8D31C0210A42808133BF /* Bond+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2E487BCA5997FA9668DB8E /* Bond+Foundation.swift */; };
+		EBD3CD9844FD74D600923F1F /* Bond+Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A27AEE5276C7987E09F4B /* Bond+Functional.swift */; };
+		ED32FF601C62219937840E6D /* Bond+CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0E8CD24DA9847BFBA770A4 /* Bond+CALayer.swift */; };
+		F2E30B59743B904F3750AC9E /* Bond+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAAC8A202CE205C1B1C176A /* Bond+UIImageView.swift */; };
+		F91C648F1677E25BB2B6489F /* Bond+UIBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B712E1C7064484EBF0F6E5 /* Bond+UIBarItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97F9235BBCD04FB5446024AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3EE8C1303A0DC9ED3F3795F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4D106A47E4674824AF74B6B;
+			remoteInfo = "Pods-FluxDemo-Bond";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B2E487BCA5997FA9668DB8E /* Bond+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bond+Foundation.swift"; path = "Bond/Bond+Foundation.swift"; sourceTree = "<group>"; };
+		124DF2A4A24BC8264C681688 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		153695507AEC2082FBE8AC92 /* Pods-FluxDemo-Bond-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FluxDemo-Bond-umbrella.h"; sourceTree = "<group>"; };
+		205C65821DC769A889C89458 /* Pods-FluxDemo-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FluxDemo-environment.h"; sourceTree = "<group>"; };
+		26BABF1F1B7F5F13DD151198 /* Bond+UICollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bond+UICollectionView.swift"; path = "Bond/iOS/Bond+UICollectionView.swift"; sourceTree = "<group>"; };
+		336A18E16B9BA06264202BAA /* Bond+Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bond+Operators.swift"; path = "Bond/Bond+Operators.swift"; sourceTree = "<group>"; };
+		3BF5988C2AF3D6834B6AC7E3 /* Pods-FluxDemo-Bond-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FluxDemo-Bond-prefix.pch"; sourceTree = "<group>"; };
+		3CDCA36B6B9688702BD6510F /* Bond+Arrays.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bond+Arrays.swift"; path = "Bond/Bond+Arrays.swift"; sourceTree = "<group>"; };
+		3F1A27AEE5276C7987E09F4B /* Bond+Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bond+Functional.swift"; path = "Bond/Bond+Functional.swift"; sourceTree = "<group>"; };
+		4B683E57787EC890F6A4E3F3 /* Bond+UILabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bond+UILabel.swift"; path = "Bond/iOS/Bond+UILabel.swift"; sourceTree = "<group>"; };
+		4D80D9B28EE97974F1A93B78 /* Pods-FluxDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FluxDemo-frameworks.sh"; sourceTree = "<group>"; };
+		4F7F49F1ABD5C3136B61EACA /* Bond+UIActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bond+UIActivityIndicatorView.swift"; path = "Bond/iOS/Bond+UIActivityIndicatorView.swift"; sourceTree = "<group>"; };
+		56E4B0A32426E3377DF8F047 /* Pods-FluxDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FluxDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		5C62641808467EC2B31A9F30 /* Bond+UISwitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bond+UISwitch.swift"; path = "Bond/iOS/Bond+UISwitch.swift"; sourceTree = "<group>"; };
+		60EFB341B992AB912F20F595 /* Bond+UITextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bond+UITextField.swift"; path = "Bond/iOS/Bond+UITextField.swift"; sourceTree = "<group>"; };
+		62B712E1C7064484EBF0F6E5 /* Bond+UIBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bond+UIBarItem.swift"; path = "Bond/iOS/Bond+UIBarItem.swift"; sourceTree = "<group>"; };
+		63BD130F7991F97EF5DF59B0 /* Bond+UITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bond+UITableView.swift"; path = "Bond/iOS/Bond+UITableView.swift"; sourceTree = "<group>"; };
+		652135D698ABE01186FD8B70 /* Bond.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bond.swift; path = Bond/Bond.swift; sourceTree = "<group>"; };
+		6A5480DB66A87DFFA56F5C25 /* Pods-FluxDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FluxDemo.modulemap"; sourceTree = "<group>"; };
+		743506A6E5CD198F87AA8DE1 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		78E3C860FFC92F7D517FE487 /* Bond+UISlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bond+UISlider.swift"; path = "Bond/iOS/Bond+UISlider.swift"; sourceTree = "<group>"; };
+		825446C7B661DF4F64DA0E3D /* Pods-FluxDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FluxDemo-umbrella.h"; sourceTree = "<group>"; };
+		89F455D9CB1F436FE57B7113 /* Pods-FluxDemo-Bond-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FluxDemo-Bond-dummy.m"; sourceTree = "<group>"; };
+		8C48FD4DC882F1517A7B8264 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC20BBE20AE916518377409 /* Bond+UIProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bond+UIProgressView.swift"; path = "Bond/iOS/Bond+UIProgressView.swift"; sourceTree = "<group>"; };
+		9527F9F724E7A2DCDE3C944C /* Bond.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bond.h; path = Bond/Bond.h; sourceTree = "<group>"; };
+		9746ACEB073617DBAC3E9EAD /* Pods-FluxDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FluxDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9941A02434C2B01644C576B4 /* Pods-FluxDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FluxDemo-resources.sh"; sourceTree = "<group>"; };
+		9B285309F99E92C3731FF1CD /* Pods-FluxDemo-Bond.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FluxDemo-Bond.modulemap"; sourceTree = "<group>"; };
+		9DFF4DB12AC3C0933D4B6F6A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		A3023D058709389B1A189415 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A36B96E1B726B462042487EB /* Pods_FluxDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FluxDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D48D309809E4A6645825A6 /* Bond.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bond.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D2CBE0F05B729A2CB7882A /* Pods-FluxDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FluxDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B5EEE2393BC5ABE2385CD17F /* Pods-FluxDemo-Bond-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FluxDemo-Bond-Private.xcconfig"; sourceTree = "<group>"; };
+		B8264A4427D14884D9191DBE /* Pods-FluxDemo-Bond.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FluxDemo-Bond.xcconfig"; sourceTree = "<group>"; };
+		C67F81C7EFEAE0163A292DEA /* Pods-FluxDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FluxDemo-dummy.m"; sourceTree = "<group>"; };
+		CAA6D2DBADF7CEA96A0C7C52 /* Bond+UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bond+UIView.swift"; path = "Bond/iOS/Bond+UIView.swift"; sourceTree = "<group>"; };
+		D79256CD0EF2CA00EC257B99 /* Bond+NSLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bond+NSLayoutConstraint.swift"; path = "Bond/Shared/Bond+NSLayoutConstraint.swift"; sourceTree = "<group>"; };
+		DA0E8CD24DA9847BFBA770A4 /* Bond+CALayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bond+CALayer.swift"; path = "Bond/Shared/Bond+CALayer.swift"; sourceTree = "<group>"; };
+		DAF1A9FB952779A37000D37C /* Pods-FluxDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FluxDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DD0AD7B97FFB8BF9C672CFBD /* Bond+UIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bond+UIButton.swift"; path = "Bond/iOS/Bond+UIButton.swift"; sourceTree = "<group>"; };
+		DDFE0B08F3785A857D96121B /* Bond+UINavigationItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bond+UINavigationItem.swift"; path = "Bond/iOS/Bond+UINavigationItem.swift"; sourceTree = "<group>"; };
+		E2E58193E5DA4839FC58EE14 /* Bond+UIDatePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bond+UIDatePicker.swift"; path = "Bond/iOS/Bond+UIDatePicker.swift"; sourceTree = "<group>"; };
+		EF9E74D6394ABD53E6F6F25C /* Bond+UITextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bond+UITextView.swift"; path = "Bond/iOS/Bond+UITextView.swift"; sourceTree = "<group>"; };
+		FCAAC8A202CE205C1B1C176A /* Bond+UIImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bond+UIImageView.swift"; path = "Bond/iOS/Bond+UIImageView.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79811E68C1FD0BADF4891B86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD80974489F571ACEAFADDA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0E63D91719BF8B2767A3877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FD681DC42EAB188B3649EA /* Foundation.framework in Frameworks */,
+				BD2472A82E3736BF61E86596 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AD04C7143C84B5B65BDD1E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6D48D309809E4A6645825A6 /* Bond.framework */,
+				A36B96E1B726B462042487EB /* Pods_FluxDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20D72FC4CA3D7794B02CFF8E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6E9F32288E39B55EF069E97 /* Pods-FluxDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3C93F195C6D78756E747A30D /* Bond */ = {
+			isa = PBXGroup;
+			children = (
+				9527F9F724E7A2DCDE3C944C /* Bond.h */,
+				652135D698ABE01186FD8B70 /* Bond.swift */,
+				3CDCA36B6B9688702BD6510F /* Bond+Arrays.swift */,
+				DA0E8CD24DA9847BFBA770A4 /* Bond+CALayer.swift */,
+				0B2E487BCA5997FA9668DB8E /* Bond+Foundation.swift */,
+				3F1A27AEE5276C7987E09F4B /* Bond+Functional.swift */,
+				D79256CD0EF2CA00EC257B99 /* Bond+NSLayoutConstraint.swift */,
+				336A18E16B9BA06264202BAA /* Bond+Operators.swift */,
+				4F7F49F1ABD5C3136B61EACA /* Bond+UIActivityIndicatorView.swift */,
+				62B712E1C7064484EBF0F6E5 /* Bond+UIBarItem.swift */,
+				DD0AD7B97FFB8BF9C672CFBD /* Bond+UIButton.swift */,
+				26BABF1F1B7F5F13DD151198 /* Bond+UICollectionView.swift */,
+				E2E58193E5DA4839FC58EE14 /* Bond+UIDatePicker.swift */,
+				FCAAC8A202CE205C1B1C176A /* Bond+UIImageView.swift */,
+				4B683E57787EC890F6A4E3F3 /* Bond+UILabel.swift */,
+				DDFE0B08F3785A857D96121B /* Bond+UINavigationItem.swift */,
+				8DC20BBE20AE916518377409 /* Bond+UIProgressView.swift */,
+				78E3C860FFC92F7D517FE487 /* Bond+UISlider.swift */,
+				5C62641808467EC2B31A9F30 /* Bond+UISwitch.swift */,
+				63BD130F7991F97EF5DF59B0 /* Bond+UITableView.swift */,
+				60EFB341B992AB912F20F595 /* Bond+UITextField.swift */,
+				EF9E74D6394ABD53E6F6F25C /* Bond+UITextView.swift */,
+				CAA6D2DBADF7CEA96A0C7C52 /* Bond+UIView.swift */,
+				95CA5FA4930DB91EF5E2E641 /* Support Files */,
+			);
+			path = Bond;
+			sourceTree = "<group>";
+		};
+		95CA5FA4930DB91EF5E2E641 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C48FD4DC882F1517A7B8264 /* Info.plist */,
+				9B285309F99E92C3731FF1CD /* Pods-FluxDemo-Bond.modulemap */,
+				B8264A4427D14884D9191DBE /* Pods-FluxDemo-Bond.xcconfig */,
+				B5EEE2393BC5ABE2385CD17F /* Pods-FluxDemo-Bond-Private.xcconfig */,
+				89F455D9CB1F436FE57B7113 /* Pods-FluxDemo-Bond-dummy.m */,
+				3BF5988C2AF3D6834B6AC7E3 /* Pods-FluxDemo-Bond-prefix.pch */,
+				153695507AEC2082FBE8AC92 /* Pods-FluxDemo-Bond-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-FluxDemo-Bond";
+			sourceTree = "<group>";
+		};
+		ABC57CBAB9C091A70BFE6057 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				124DF2A4A24BC8264C681688 /* Foundation.framework */,
+				9DFF4DB12AC3C0933D4B6F6A /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B5263444F297991485493B21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABC57CBAB9C091A70BFE6057 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3AB4DC398BE5DFA2008E994 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C93F195C6D78756E747A30D /* Bond */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6E9F32288E39B55EF069E97 /* Pods-FluxDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A3023D058709389B1A189415 /* Info.plist */,
+				6A5480DB66A87DFFA56F5C25 /* Pods-FluxDemo.modulemap */,
+				9746ACEB073617DBAC3E9EAD /* Pods-FluxDemo-acknowledgements.markdown */,
+				56E4B0A32426E3377DF8F047 /* Pods-FluxDemo-acknowledgements.plist */,
+				C67F81C7EFEAE0163A292DEA /* Pods-FluxDemo-dummy.m */,
+				205C65821DC769A889C89458 /* Pods-FluxDemo-environment.h */,
+				4D80D9B28EE97974F1A93B78 /* Pods-FluxDemo-frameworks.sh */,
+				9941A02434C2B01644C576B4 /* Pods-FluxDemo-resources.sh */,
+				825446C7B661DF4F64DA0E3D /* Pods-FluxDemo-umbrella.h */,
+				DAF1A9FB952779A37000D37C /* Pods-FluxDemo.debug.xcconfig */,
+				B0D2CBE0F05B729A2CB7882A /* Pods-FluxDemo.release.xcconfig */,
+			);
+			name = "Pods-FluxDemo";
+			path = "Target Support Files/Pods-FluxDemo";
+			sourceTree = "<group>";
+		};
+		F9158A01BB442C74B2F250E5 = {
+			isa = PBXGroup;
+			children = (
+				743506A6E5CD198F87AA8DE1 /* Podfile */,
+				B5263444F297991485493B21 /* Frameworks */,
+				D3AB4DC398BE5DFA2008E994 /* Pods */,
+				0AD04C7143C84B5B65BDD1E1 /* Products */,
+				20D72FC4CA3D7794B02CFF8E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5F28975CD42431BCE880B486 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E68D2FB485A119469F19BE /* Pods-FluxDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA59038F560A62764F92A06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C9377C036C9FF2E985FBFD /* Bond.h in Headers */,
+				9AC78F4496B5F4C771B923FA /* Pods-FluxDemo-Bond-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B4D106A47E4674824AF74B6B /* Pods-FluxDemo-Bond */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3550F312582B692A716662B /* Build configuration list for PBXNativeTarget "Pods-FluxDemo-Bond" */;
+			buildPhases = (
+				601B3D9FBBE6159D26C86F9A /* Sources */,
+				B0E63D91719BF8B2767A3877 /* Frameworks */,
+				BDA59038F560A62764F92A06 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FluxDemo-Bond";
+			productName = "Pods-FluxDemo-Bond";
+			productReference = A6D48D309809E4A6645825A6 /* Bond.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F5049CCA2B48CC2E1D271440 /* Pods-FluxDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53C3307479C1932BEEBB172D /* Build configuration list for PBXNativeTarget "Pods-FluxDemo" */;
+			buildPhases = (
+				AA4AE0FA095049888D7CEC05 /* Sources */,
+				79811E68C1FD0BADF4891B86 /* Frameworks */,
+				5F28975CD42431BCE880B486 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C3C1B1D1F33EEA3DD8E532D /* PBXTargetDependency */,
+			);
+			name = "Pods-FluxDemo";
+			productName = "Pods-FluxDemo";
+			productReference = A36B96E1B726B462042487EB /* Pods_FluxDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3EE8C1303A0DC9ED3F3795F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 929D387EA7D6F8B53148D932 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F9158A01BB442C74B2F250E5;
+			productRefGroup = 0AD04C7143C84B5B65BDD1E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5049CCA2B48CC2E1D271440 /* Pods-FluxDemo */,
+				B4D106A47E4674824AF74B6B /* Pods-FluxDemo-Bond */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		601B3D9FBBE6159D26C86F9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5793A79D6CD5D50C56FE77F3 /* Bond+Arrays.swift in Sources */,
+				ED32FF601C62219937840E6D /* Bond+CALayer.swift in Sources */,
+				CE9E8D31C0210A42808133BF /* Bond+Foundation.swift in Sources */,
+				EBD3CD9844FD74D600923F1F /* Bond+Functional.swift in Sources */,
+				5C90326A1EF4DF88C8046EC2 /* Bond+NSLayoutConstraint.swift in Sources */,
+				01E904BC60BCB47799174A05 /* Bond+Operators.swift in Sources */,
+				C693A84EEF30E285753F3437 /* Bond+UIActivityIndicatorView.swift in Sources */,
+				F91C648F1677E25BB2B6489F /* Bond+UIBarItem.swift in Sources */,
+				933E176EE60B7B16133B6010 /* Bond+UIButton.swift in Sources */,
+				7F291F07BB4D26F2D68E4235 /* Bond+UICollectionView.swift in Sources */,
+				06B7A46E340396A9A7A9A36F /* Bond+UIDatePicker.swift in Sources */,
+				F2E30B59743B904F3750AC9E /* Bond+UIImageView.swift in Sources */,
+				3FABEB0A46DD491A926ABF71 /* Bond+UILabel.swift in Sources */,
+				A8FF240C8ACA50C2CE3633F2 /* Bond+UINavigationItem.swift in Sources */,
+				3C7A580411DA4BCEBC0A7708 /* Bond+UIProgressView.swift in Sources */,
+				1250F23A25ACA4E00F165E25 /* Bond+UISlider.swift in Sources */,
+				4F4E102954F1F493EB9B3D10 /* Bond+UISwitch.swift in Sources */,
+				9E86D9339EA181153889D680 /* Bond+UITableView.swift in Sources */,
+				7D4EB536F209D94B328E53D9 /* Bond+UITextField.swift in Sources */,
+				7E836B03D5C7F4478E96BF02 /* Bond+UITextView.swift in Sources */,
+				2B77F71642B7FD49E228C693 /* Bond+UIView.swift in Sources */,
+				452A06EF39039026E9A605F1 /* Bond.swift in Sources */,
+				A801DCC02BC68AFC3F99E88A /* Pods-FluxDemo-Bond-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4AE0FA095049888D7CEC05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ACBE76318A5671B2E92FF46 /* Pods-FluxDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C3C1B1D1F33EEA3DD8E532D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FluxDemo-Bond";
+			target = B4D106A47E4674824AF74B6B /* Pods-FluxDemo-Bond */;
+			targetProxy = 97F9235BBCD04FB5446024AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03D685D8EA7AF3ADD5F41844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		61F627E585007663CC1B74E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5EEE2393BC5ABE2385CD17F /* Pods-FluxDemo-Bond-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FluxDemo-Bond/Pods-FluxDemo-Bond-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-FluxDemo-Bond/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-FluxDemo-Bond/Pods-FluxDemo-Bond.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Bond;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E80ABCDFE9A1362D7BE9CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAF1A9FB952779A37000D37C /* Pods-FluxDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FluxDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-FluxDemo/Pods-FluxDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_FluxDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96B80790C8951B3B64026519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDB7C27D17C155574730DB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0D2CBE0F05B729A2CB7882A /* Pods-FluxDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FluxDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-FluxDemo/Pods-FluxDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_FluxDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E07843BB2DB19E372CCBBE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5EEE2393BC5ABE2385CD17F /* Pods-FluxDemo-Bond-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FluxDemo-Bond/Pods-FluxDemo-Bond-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-FluxDemo-Bond/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-FluxDemo-Bond/Pods-FluxDemo-Bond.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Bond;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53C3307479C1932BEEBB172D /* Build configuration list for PBXNativeTarget "Pods-FluxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E80ABCDFE9A1362D7BE9CAC /* Debug */,
+				DDB7C27D17C155574730DB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929D387EA7D6F8B53148D932 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D685D8EA7AF3ADD5F41844 /* Debug */,
+				96B80790C8951B3B64026519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3550F312582B692A716662B /* Build configuration list for PBXNativeTarget "Pods-FluxDemo-Bond" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F627E585007663CC1B74E0 /* Debug */,
+				E07843BB2DB19E372CCBBE66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3EE8C1303A0DC9ED3F3795F /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Bond {
+  umbrella header "Pods-FluxDemo-Bond-umbrella.h"
+
+  export *
+  module * { export * }
+}
