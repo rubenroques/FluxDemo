@@ -11,5 +11,6 @@ import UIKit
 typealias Route = String
 
 protocol Action {
-    func route() -> Route
 }
+
+typealias ActionCallback = Action -> ()
