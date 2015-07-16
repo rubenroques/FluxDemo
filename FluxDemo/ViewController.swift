@@ -8,18 +8,45 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
+let dispatcher = Dispatcher.sharedInstance
+
+class ViewController: UIViewController {
+    
+    var loginView1: LoginView = {
+        return LoginView(frame: CGRect(x: 15, y: 80, width: 190, height: 30))
+    }()
+    
+    var loginView2: LoginView = {
+        return LoginView(frame: CGRect(x: 15, y: 130, width: 190, height: 30))
+    }()
+    
+    var userNameView: RefreshUserView = {
+        return RefreshUserView(frame: CGRect(x: 15, y: 170, width: 190, height: 30))
+    }()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
+        self.view.addSubview(loginView1)
+        self.view.addSubview(loginView2)
+        self.view.addSubview(userNameView)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
+    @IBAction func testLogin(sender: AnyObject?) {
+        dispatcher.dispatch( LoginAction.PerformLogin(user: "User", pass: "Pass") )
+    }
+    
+    
+    @IBAction func testUserName(sender: AnyObject?) {
+        dispatcher.dispatch( RefreshUserAction.RefreshUserFirstName )
+        dispatcher.dispatch( RefreshUserAction.RefreshUserLastName )
+    }
 }
 
