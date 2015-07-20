@@ -11,4 +11,5 @@ import UIKit
 protocol Store {
     typealias ActionType = Action
     func performAction(_: ActionType)
+    //func filterAction() -> (_:ActionType)->(Bool)
 }

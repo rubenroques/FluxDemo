@@ -46,6 +46,17 @@ class LoginStore:Store {
         }
     }
     
+    func filterAction() -> (action:Action)->(Bool) {
+        return {
+            action in
+            
+            if let actionValue = action as? LoginAction {
+                return true
+            }
+            return false
+        }
+    }
+    
     func performLogin(){
         //
         self.userName.value = "Testing - \(NSDate().timeIntervalSince1970)"
