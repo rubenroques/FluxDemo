@@ -14,7 +14,7 @@ enum LoginAction : Action {
 }
 
 extension LoginAction {
-    var actionIdentifier : Route {
+    var actionRoute : ActionRoute {
         return "\(LoginAction.self)"
     }
 }

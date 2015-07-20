@@ -22,14 +22,14 @@ public class Dispatcher {
     static let sharedInstance = Dispatcher()
     init() { }
     
-    func register(callback: ActionCallback, action:Route) -> String {
+    func register(callback: ActionCallback, action:ActionRoute) -> String {
 
         let id = NSUUID().UUIDString
 
-        if let _ = callbacksDictionary[action.actionIdentifier] {
+        if let _ = callbacksDictionary[action] {
             callbacksDictionary[id]!.append(callback)
         }else {
-            callbacksDictionary[action.actionIdentifier] = [callback]
+            callbacksDictionary[action] = [callback]
         }
         return id
     }

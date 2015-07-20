@@ -8,10 +8,12 @@
 
 import UIKit
 
-typealias Route = String
+typealias ActionRoute = String
 
 protocol Action {
-    var actionIdentifier : Route {get}
+
+    var actionRoute : ActionRoute {get}
+
 }
 
 

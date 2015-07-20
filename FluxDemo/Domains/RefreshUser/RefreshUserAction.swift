@@ -15,7 +15,7 @@ enum RefreshUserAction : Action {
 
 extension RefreshUserAction {
 
-    var actionIdentifier : Route {
+    var actionRoute : ActionRoute {
         return "\(RefreshUserAction.self)"
     }
 
