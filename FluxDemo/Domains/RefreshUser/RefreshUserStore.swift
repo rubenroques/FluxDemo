@@ -24,7 +24,7 @@ class RefreshUserStore:Store {
     static let sharedInstance = RefreshUserStore()
     
     init() {
-        self.storeID = dispatcher.register({ action in
+        dispatcher.register({ action in
             if let actionValue = action as? RefreshUserAction {
                 self.performAction(actionValue)
             }

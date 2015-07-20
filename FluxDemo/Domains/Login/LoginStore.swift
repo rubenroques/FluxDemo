@@ -22,7 +22,7 @@ class LoginStore:Store {
     static let sharedInstance = LoginStore()  
     
     init() {
-        self.storeID = dispatcher.register({action in
+        dispatcher.register({action in
             if let actionValue = action as? LoginAction {
                 self.performAction(actionValue)
             }
