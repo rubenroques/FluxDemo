@@ -11,6 +11,8 @@ import UIKit
 typealias Route = String
 
 protocol Action {
+    var actionIdentifier : Route {get}
 }
+
 
 typealias ActionCallback = Action -> ()

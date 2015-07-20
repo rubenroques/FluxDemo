@@ -26,7 +26,7 @@ class LoginStore:Store {
             if let actionValue = action as? LoginAction {
                 self.performAction(actionValue)
             }
-        })
+        }, action:"")
     }
     
     deinit{

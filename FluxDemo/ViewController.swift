@@ -40,13 +40,13 @@ class ViewController: UIViewController {
     
     
     @IBAction func testLogin(sender: AnyObject?) {
-        dispatcher.dispatch( LoginAction.PerformLogin(user: "User", pass: "Pass") )
+        //dispatcher.dispatch( LoginAction.PerformLogin(user: "User", pass: "Pass") )
     }
     
     
     @IBAction func testUserName(sender: AnyObject?) {
-        dispatcher.dispatch( RefreshUserAction.RefreshUserFirstName )
-        dispatcher.dispatch( RefreshUserAction.RefreshUserLastName )
+        //dispatcher.dispatch( RefreshUserAction.RefreshUserFirstName )
+        //dispatcher.dispatch( RefreshUserAction.RefreshUserLastName )
     }
 }
 

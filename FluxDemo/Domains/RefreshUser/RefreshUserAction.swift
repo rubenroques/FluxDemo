@@ -13,15 +13,10 @@ enum RefreshUserAction : Action {
     case RefreshUserLastName
 }
 
-extension RefreshUserAction: Printable {
-    var description: String {
-        get {
-            switch self {
-            case .RefreshUserFirstName:
-                return "RefreshUserFirstName"
-            case .RefreshUserLastName:
-                return "RefreshUserLastName"
-            }
-        }
+extension RefreshUserAction {
+
+    var actionIdentifier : Route {
+        return "\(RefreshUserAction.self)"
     }
+
 }

@@ -13,7 +13,7 @@ public class Dispatcher {
     
     var dispatching: Bool = false
     
-    var callbacksDictionary: [String: ActionCallback] = [:]
+    var callbacksDictionary: [ String: [ActionCallback]] = [ : ]
     var pendingDictionary: [String: (Bool)] = [:]
     var handledDictionary: [String: (Bool)] = [:]
     
@@ -22,9 +22,15 @@ public class Dispatcher {
     static let sharedInstance = Dispatcher()
     init() { }
     
-    func register(callback: ActionCallback) -> String {
+    func register(callback: ActionCallback, action:Route) -> String {
+
         let id = NSUUID().UUIDString
-        callbacksDictionary[id] = callback
+
+        if let _ = callbacksDictionary[action.actionIdentifier] {
+            callbacksDictionary[id]!.append(callback)
+        }else {
+            callbacksDictionary[action.actionIdentifier] = [callback]
+        }
         return id
     }
     
@@ -57,8 +63,12 @@ public class Dispatcher {
     // Private
     private func invokeActionCallback(id: String) {
         pendingDictionary[id] = true
-        let callback = callbacksDictionary[id]!
-        callback(pendingAction!)
+        let callbacks = callbacksDictionary[id]!
+        for callback in callbacks {
+            if let pendingAction = pendingAction {
+                callback(pendingAction)
+            }
+        }
         handledDictionary[id] = true
     }
     

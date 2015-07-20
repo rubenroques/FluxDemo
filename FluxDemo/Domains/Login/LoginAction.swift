@@ -13,15 +13,8 @@ enum LoginAction : Action {
     case PerformLogout
 }
 
-extension LoginAction: Printable {
-    var description: String {
-        get {
-            switch self {
-            case let .PerformLogin(user: user, pass: pass):
-                return "PerformLogin \(user):\(pass)"
-            case .PerformLogout:
-                return "PerformLogout"
-            }
-        }
+extension LoginAction {
+    var actionIdentifier : Route {
+        return "\(LoginAction.self)"
     }
 }
